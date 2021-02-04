@@ -1,0 +1,136 @@
+/* Universal selector */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+body {
+    text-align: center;
+    animation-name: backgroundAnimation;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+/* header */
+header {
+    padding: 0px;
+    background-color: black;
+    border-bottom: 2px solid silver;
+}
+
+/* #avengers-title */
+#avengers-title {
+    animation-name: colorAnimation;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    font-family: 'Bangers', cursive;
+}
+
+/* #avengers-img */
+#avengers-img {
+    height: 300px;
+    margin-top: 8px;
+    border: 2px solid silver;
+}
+
+/* .row */
+.row {
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* .card-header */
+.card-header {
+    height: 50px;
+    font-family: monospace;
+    background-color: black;
+    color: silver;
+}
+
+/* .card-title */
+.card-title {
+    margin-top: -5px;
+}
+
+/* .card-body  */
+.card-body {
+    height: 50px;
+    font-family: monospace;
+    background-color: silver;
+}
+
+/* span */
+span {
+    color: red;
+}
+
+/* h3 */
+h3 {
+    margin-top: -7px;
+}
+
+/* footer */
+footer {
+    padding: 4px;
+    border-top: silver solid 2px;
+    background-color: black;
+    animation-name: colorAnimation;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+/* #footer-text */
+#footer-text {
+    margin-top: 10px;
+    font-family: 'Bangers', cursive;
+}
+
+
+/* *********************** Keyframes *********************** */
+
+/* backgroundAnimation */
+@keyframes backgroundAnimation {
+    0% {
+        background-color: purple;
+    }
+    25% {
+        background-color: red;
+    }
+    50% {
+        background-color: green;
+    }
+    75% {
+        background-color: grey;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+/* colorAnimation */
+@keyframes colorAnimation {
+    0% {
+        color: purple;
+    }
+    25% {
+        color: red;
+    }
+    50% {
+        color: green;
+    }
+    75% {
+        color: grey;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+
+/* *********************** Media Query *********************** */
